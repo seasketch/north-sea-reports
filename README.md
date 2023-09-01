@@ -6,8 +6,7 @@ Once established, you can follow the tutorial to [setup an existing project on a
 
 ## Reference Notes
 
-This project uses data management [option ?](https://github.com/seasketch/geoprocessing/wiki/Tutorials#link-project-data)
+This project creates a symlink to the North Sea (Belgium) Box Drive using BoxSync.
 
 Data is sourced from the following locations:
-
-* ?
+* Box-Box/GIS/MSP4BIO/North Sea (Belgium)

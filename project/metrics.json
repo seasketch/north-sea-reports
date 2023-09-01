@@ -5,8 +5,7 @@
       {
           "classId": "eez",
           "display": "EEZ",
-          "datasourceId": "global-clipping-eez-land-union",
-          "objectiveId": "eez",
+          "datasourceId": "eez",
           "layerId": ""
       }
   ]

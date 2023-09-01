@@ -13,12 +13,11 @@ import {
   isInternalVectorDatasource,
   isExternalVectorDatasource,
   isPolygonFeatureArray,
+  overlapArea,
 } from "@seasketch/geoprocessing";
 import { getFeatures } from "@seasketch/geoprocessing/dataproviders";
 import bbox from "@turf/bbox";
 import project from "../../project";
-
-const metricGroup = project.getMetricGroup("boundaryAreaOverlap");
 
 /** Optional caller-provided parameters */
 interface ExtraParams {
@@ -26,12 +25,13 @@ interface ExtraParams {
   geographies?: string[];
 }
 
+const metricGroup = project.getMetricGroup("boundaryAreaOverlap");
+
 export async function boundaryAreaOverlap(
   sketch: Sketch<Polygon> | SketchCollection<Polygon>,
   extraParams: ExtraParams = {}
 ): Promise<ReportResult> {
   const sketchBox = sketch.bbox || bbox(sketch);
-
   // Fetch boundary features indexed by classId
   const polysByBoundary = (
     await Promise.all(
@@ -50,10 +50,6 @@ export async function boundaryAreaOverlap(
         // Fetch only the features that overlap the bounding box of the sketch
         const url = project.getVectorDatasourceUrl(ds);
         const polys = await getFeatures(ds, url, {
-          propertyFilter: {
-            property: "UNION",
-            values: [project.basic.planningAreaId],
-          },
           bbox: sketchBox,
         });
         if (!isPolygonFeatureArray(polys)) {
@@ -69,28 +65,27 @@ export async function boundaryAreaOverlap(
     };
   }, {});
 
-  const metrics: Metric[] = // calculate area overlap metrics for each class
-    (
-      await Promise.all(
-        metricGroup.classes.map(async (curClass) => {
-          const overlapResult = await overlapFeatures(
-            metricGroup.metricId,
-            polysByBoundary[curClass.classId],
-            sketch
-          );
-          return overlapResult.map(
-            (metric): Metric => ({
-              ...metric,
-              classId: curClass.classId,
-            })
-          );
-        })
-      )
-    ).reduce(
-      // merge
-      (metricsSoFar, curClassMetrics) => [...metricsSoFar, ...curClassMetrics],
-      []
-    );
+  const metrics: Metric[] = ( // calculate area overlap metrics for each class
+    await Promise.all(
+      metricGroup.classes.map(async (curClass) => {
+        const overlapResult = await overlapFeatures(
+          metricGroup.metricId,
+          polysByBoundary[curClass.classId],
+          sketch
+        );
+        return overlapResult.map(
+          (metric): Metric => ({
+            ...metric,
+            classId: curClass.classId,
+          })
+        );
+      })
+    )
+  ).reduce(
+    // merge
+    (metricsSoFar, curClassMetrics) => [...metricsSoFar, ...curClassMetrics],
+    []
+  );
 
   return {
     metrics: sortMetrics(rekeyMetrics(metrics)),
