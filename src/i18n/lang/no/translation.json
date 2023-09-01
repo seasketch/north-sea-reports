@@ -72,5 +72,7 @@
   "SizeCard title": "Sonestørrelse",
   "Target": "Mål",
   "Value": "Verdi",
-  "Viability": "Levedyktighet"
+  "Viability": "Levedyktighet",
+  "% Within Plan": "% Innenfor plan",
+  "Results not found": "Finner ikke resultater"
 }

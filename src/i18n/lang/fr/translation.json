@@ -4,7 +4,7 @@
   "Area": "Zone",
   "Area Within Plan": "Superficie dans le plan",
   "Attributes": "Les attributs",
-  "Author(s)": "Auteurs)",
+  "Author(s)": "Auteur(s)",
   "Boundary": "Frontière",
   "Category": "Catégorie",
   "Class": "Classe",
@@ -72,5 +72,11 @@
   "SizeCard title": "Taille des zones",
   "Target": "Cible",
   "Value": "Valeur",
-  "Viability": "Viabilité"
+  "Viability": "Viabilité",
+  "% Within Plan": "% dans le plan",
+  "Belgium": "Belgique",
+  "EEZ": "ZEE",
+  "EEZ Objective": "Objectif ZEE",
+  "Fully Protected Area": "Zone Entièrement Protégée",
+  "Results not found": "Résultats introuvables"
 }
