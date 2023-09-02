@@ -18,16 +18,8 @@
     "url": "https://d3muy0hbwp5qkl.cloudfront.net"
   },
   {
-    "src": "data/src/Analytics/belgium-eez.json",
-    "layerName": "belgium-eez",
-    "geo_type": "vector",
     "datasourceId": "eez",
-    "formats": [
-      "fgb"
-    ],
-    "classKeys": [],
-    "created": "2023-09-01T20:55:50.112Z",
-    "lastUpdated": "2023-09-01T20:55:50.112Z",
+    "geo_type": "vector",
     "keyStats": {
       "total": {
         "total": {
@@ -37,6 +29,58 @@
         }
       }
     },
+    "formats": [
+      "fgb"
+    ],
+    "layerName": "belgium-eez",
+    "classKeys": [],
+    "created": "2023-09-01T20:55:50.112Z",
+    "lastUpdated": "2023-09-01T20:55:50.112Z",
+    "src": "data/src/Analytics/belgium-eez.json",
+    "propertiesToKeep": []
+  },
+  {
+    "datasourceId": "gravel_beds",
+    "geo_type": "vector",
+    "keyStats": {
+      "total": {
+        "total": {
+          "count": 184,
+          "sum": null,
+          "area": 612502790.4680034
+        }
+      }
+    },
+    "formats": [
+      "fgb"
+    ],
+    "layerName": "gravelbeds",
+    "classKeys": [],
+    "created": "2023-09-01T22:40:54.526Z",
+    "lastUpdated": "2023-09-01T22:40:54.526Z",
+    "src": "data/src/Data_Received/msp4bio/gravelbeds.geojson",
+    "propertiesToKeep": []
+  },
+  {
+    "datasourceId": "lanice_conchilega",
+    "geo_type": "vector",
+    "keyStats": {
+      "total": {
+        "total": {
+          "count": 203,
+          "sum": null,
+          "area": 373689232.7553637
+        }
+      }
+    },
+    "formats": [
+      "fgb"
+    ],
+    "layerName": "laniceconchilega",
+    "classKeys": [],
+    "created": "2023-09-01T23:03:43.876Z",
+    "lastUpdated": "2023-09-01T23:03:43.876Z",
+    "src": "data/src/Data_Received/msp4bio/laniceconchilega.geojson",
     "propertiesToKeep": []
   }
 ]

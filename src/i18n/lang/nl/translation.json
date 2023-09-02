@@ -22,5 +22,14 @@
   "SizeCard - learn more": "<0> Dit rapport vat de omvang en het aandeel van dit plan binnen deze grenzen samen.</0><p>Als schetsgrenzen binnen een plan elkaar overlappen, wordt de overlap slechts één keer geteld.</p>",
   "SizeCard - learn more source": "Bron: Wikipedia - Territoriale wateren",
   "Target": "Doel",
-  "Viability": "Levensvatbaarheid"
+  "Viability": "Levensvatbaarheid",
+  "% Area Within Plan": "% Oppervlakte binnen plan",
+  "Gravel Beds": "Grindbedden",
+  "Gravel Beds Card": "<0>Plannen moeten rekening houden met de bescherming van grindbedhabitats. Dit rapport geeft een samenvatting van de hoeveelheid en het aandeel grindbedden die in het plan zijn aangetroffen. </0>",
+  "Gravel Beds Card - learn more": "<p>ℹ️ Overzicht: nader vast te stellen</p><p>🎯 Planningsdoelstelling: geen geïdentificeerde planningsdoelstellingen voor grindbedden.</p><p>🗺️ Brongegevens: nader vast te stellen</p><p>📈 Rapport: het percentage van elk kenmerktype binnen dit plan wordt berekend door de overlap van elk kenmerktype met het plan te bepalen, het gebied ervan bij elkaar op te tellen en dit vervolgens te delen door het totale gebied van elk kenmerktype dat binnen het geselecteerde plangebied nabij de kust wordt aangetroffen. Als het plan meerdere gebieden omvat die elkaar overlappen, wordt de overlap slechts één keer geteld.</p>",
+  "Habitat Type": "Habitattype",
+  "Lanice conchilega": "Lanice conchilega",
+  "Lanice conchilega reefs": "Lanice conchilega-riffen",
+  "Reef Card": "<0>De plannen moeten rekening houden met de bescherming van het rifhabitat <i>Lanice conchilega</i>. Dit rapport geeft een samenvatting van de hoeveelheid en het aandeel <i>Lanice conchilega</i> rif dat binnen het plan is aangetroffen.</0>",
+  "Reef Card - learn more": "<p>ℹ️ Overzicht: nader vast te stellen</p><p>🎯 Planningsdoelstelling: geen geïdentificeerde planningsdoelstellingen voor het Lanice conchilega-rif.</p><p>🗺️ Brongegevens: nader vast te stellen</p><p>📈 Rapport: het Het percentage van elk kenmerktype binnen dit plan wordt berekend door de overlap van elk kenmerktype met het plan te bepalen, het gebied ervan bij elkaar op te tellen en dit vervolgens te delen door het totale gebied van elk kenmerktype dat binnen het geselecteerde plangebied nabij de kust wordt aangetroffen. Als het plan meerdere gebieden omvat die elkaar overlappen, wordt de overlap slechts één keer geteld.</p>"
 }

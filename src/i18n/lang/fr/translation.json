@@ -78,5 +78,14 @@
   "EEZ": "ZEE",
   "EEZ Objective": "Objectif ZEE",
   "Fully Protected Area": "Zone Entièrement Protégée",
-  "Results not found": "Résultats introuvables"
+  "Results not found": "Résultats introuvables",
+  "% Area Within Plan": "% de superficie dans le plan",
+  "Gravel Beds": "Lits de gravier",
+  "Gravel Beds Card": "<0>Les plans devraient tenir compte de la protection des habitats des lits de gravier. Ce rapport résume la quantité et la proportion de lits de gravier trouvés dans le plan. </0>",
+  "Gravel Beds Card - learn more": "<p>ℹ️ Aperçu : à déterminer</p><p>🎯 Objectif de planification : aucun objectif de planification identifié pour les lits de gravier.</p><p>🗺️ Données sources : à déterminer</p><p>📈 Rapport : le pourcentage de chaque type d'entité dans ce plan est calculé en trouvant le chevauchement de chaque type d'entité avec le plan, en additionnant sa superficie, puis en la divisant par la superficie totale de chaque type d'entité trouvé dans la zone de planification côtière sélectionnée. Si le plan comprend plusieurs zones qui se chevauchent, le chevauchement n'est comptabilisé qu'une seule fois.</p>",
+  "Habitat Type": "Type d'habitat",
+  "Lanice conchilega": "Lanice conchilega",
+  "Lanice conchilega reefs": "Récifs de Lanice conchilega",
+  "Reef Card": "<0>Les plans devraient envisager la protection de l'habitat récifal de <i>Lanice conchilega</i>. Ce rapport résume la quantité et la proportion du récif <i>Lanice conchilega</i> trouvé dans le plan.</0>",
+  "Reef Card - learn more": "<p>ℹ️ Aperçu : à déterminer</p><p>🎯 Objectif de planification : aucun objectif de planification identifié pour le récif de Lanice conchilega.</p><p>🗺️ Données sources : à déterminer</p><p>📈 Rapport : le Le pourcentage de chaque type d'entité dans ce plan est calculé en trouvant le chevauchement de chaque type d'entité avec le plan, en additionnant sa superficie, puis en le divisant par la superficie totale de chaque type d'entité trouvé dans la zone de planification côtière sélectionnée. Si le plan comprend plusieurs zones qui se chevauchent, le chevauchement n'est comptabilisé qu'une seule fois.</p>"
 }

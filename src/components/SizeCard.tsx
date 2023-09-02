@@ -154,9 +154,8 @@ const genSingleSizeTable = (
   t: TFunction
 ) => {
   const boundaryLabel = t("Boundary");
-  const foundWithinLabel = t("Found Within Plan");
   const areaWithinLabel = t("Area Within Plan");
-  const areaPercWithinLabel = t("% Within Plan");
+  const areaPercWithinLabel = t("% Area Within Plan");
   const mapLabel = t("Map");
   const sqKmLabel = t("km²");
 
@@ -189,10 +188,10 @@ const genSingleSizeTable = (
           {
             columnLabel: boundaryLabel,
             type: "class",
-            width: 25,
+            width: 30,
           },
           {
-            columnLabel: foundWithinLabel,
+            columnLabel: areaWithinLabel,
             type: "metricValue",
             metricId: mg.metricId,
             valueFormatter: (val: string | number) =>
@@ -204,10 +203,10 @@ const genSingleSizeTable = (
                 )
               ),
             valueLabel: sqKmLabel,
-            width: 20,
+            width: 30,
           },
           {
-            columnLabel: " ",
+            columnLabel: areaPercWithinLabel,
             type: "metricChart",
             metricId: project.getMetricGroupPercId(mg),
             valueFormatter: "percent",
@@ -218,7 +217,7 @@ const genSingleSizeTable = (
               targetLabelStyle: "tight",
               barHeight: 11,
             },
-            width: 40,
+            width: 30,
             targetValueFormatter: (
               value: number,
               row: number,
@@ -237,7 +236,7 @@ const genSingleSizeTable = (
           },
           {
             type: "layerToggle",
-            width: 15,
+            width: 10,
             columnLabel: mapLabel,
           },
         ]}

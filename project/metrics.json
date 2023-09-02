@@ -1,12 +1,38 @@
-[{
-  "metricId": "boundaryAreaOverlap",
-  "type": "areaOverlap",
-  "classes": [
-      {
-          "classId": "eez",
-          "display": "EEZ",
-          "datasourceId": "eez",
-          "layerId": ""
-      }
-  ]
-}]
+[
+    {
+        "metricId": "boundaryAreaOverlap",
+        "type": "areaOverlap",
+        "classes": [
+            {
+                "classId": "eez",
+                "display": "EEZ",
+                "datasourceId": "eez",
+                "layerId": "PXFCQRg6M"
+            }
+        ]
+    },
+    {
+        "metricId": "gravelBedsAreaOverlap",
+        "type": "areaOverlap",
+        "classes": [
+            {
+                "classId": "gravel_beds",
+                "display": "Gravel Beds",
+                "datasourceId": "gravel_beds",
+                "layerId": "H1WWdfxc5"
+            }
+        ]
+    },
+    {
+        "metricId": "reefAreaOverlap",
+        "type": "areaOverlap",
+        "classes": [
+            {
+                "classId": "lanice_conchilega",
+                "display": "Lanice conchilega reefs",
+                "datasourceId": "lanice_conchilega",
+                "layerId": "uNdd4tTyL"
+            }
+        ]
+    }
+]

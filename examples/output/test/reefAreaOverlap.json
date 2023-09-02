@@ -1,0 +1,65 @@
+{
+  "metrics": [
+    {
+      "metricId": "reefAreaOverlap",
+      "sketchId": "18827",
+      "classId": "lanice_conchilega",
+      "groupId": null,
+      "geographyId": null,
+      "value": 5915683.580869104,
+      "extra": {
+        "sketchName": "test"
+      }
+    }
+  ],
+  "sketch": {
+    "id": 18827,
+    "bbox": [
+      2.2774496,
+      51.39395,
+      2.9115622,
+      51.658436
+    ],
+    "type": "Feature",
+    "properties": {
+      "4389": "test",
+      "id": "18827",
+      "name": "test",
+      "postId": null,
+      "userId": "531",
+      "comments": null,
+      "userSlug": "Abby",
+      "createdAt": "2023-09-01T23:29:36.721582+00:00",
+      "updatedAt": "2023-09-01T23:29:36.721582+00:00",
+      "collectionId": null,
+      "isCollection": false,
+      "sharedInForum": false,
+      "sketchClassId": "445",
+      "userAttributes": [
+        {
+          "label": "Comments",
+          "value": null,
+          "exportId": "comments",
+          "fieldType": "TextArea",
+          "valueLabel": null,
+          "formElementId": 4799,
+          "alternateLanguages": {
+            "fr": {
+              "label": "Commentaires",
+              "valueLabel": null
+            },
+            "nl": {
+              "label": "Kommentare",
+              "valueLabel": null
+            },
+            "fr-be": {
+              "label": "Commentaires",
+              "valueLabel": null
+            }
+          }
+        }
+      ]
+    },
+    "geometry": null
+  }
+}
