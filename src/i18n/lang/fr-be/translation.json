@@ -22,5 +22,10 @@
   "SizeCard - learn more": "<0> Ce rapport résume la taille et la proportion de ce plan à l'intérieur de ces limites.</0><p>Si les limites d'esquisse d'un plan se chevauchent, le chevauchement n'est compté qu'une seule fois.</p>",
   "SizeCard - learn more source": "Source : Wikipédia – Eaux territoriales",
   "Target": "Cible",
-  "Viability": "Viabilité"
+  "Viability": "Viabilité",
+  "Exclusive Economic Zone\n(0-200 nautical miles)": "Zone économique exclusive\n(0-200 milles marins)",
+  "Land": "Atterrir",
+  "Nearshore\n(0-12 nautical miles)": "Près du littoral\n(0-12 milles marins)",
+  "Offshore\n(12-200 nautical miles)": "En mer\n(12-200 milles marins)",
+  "Shoreline": "Littoral"
 }

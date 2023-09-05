@@ -21,6 +21,7 @@ import {
   useSketchProperties,
   ToolbarCard,
   DataDownload,
+  WatersDiagram,
 } from "@seasketch/geoprocessing/client-ui";
 import styled from "styled-components";
 import project from "../../project";
@@ -82,6 +83,13 @@ export const SizeCard = () => {
       {(data: ReportResult) => {
         if (Object.keys(data).length === 0) throw new Error(notFoundString);
 
+        // So waters diagram is translated
+        const landLabel = t("Land");
+        const shorelineLabel = t("Shoreline");
+        const nearshoreLabel = t("Nearshore\n(0-12 nautical miles)");
+        const offshoreLabel = t("Offshore\n(12-200 nautical miles)");
+        const eezLabel = t("Exclusive Economic Zone\n(0-200 nautical miles)");
+
         return (
           <>
             <ToolbarCard
@@ -114,29 +122,27 @@ export const SizeCard = () => {
                 </Collapse>
               )}
               <Collapse title={t("Learn more")}>
-                <p>
-                  <img
-                    src={require("../assets/img/territorial_waters.png")}
-                    style={{ maxWidth: "100%" }}
-                  />
-                  <a
-                    target="_blank"
-                    href="https://en.wikipedia.org/wiki/Territorial_waters"
-                  >
-                    <Trans i18nKey="SizeCard - learn more source">
-                      Source: Wikipedia - Territorial Waters
-                    </Trans>
-                  </a>
-                </p>
+                <WatersDiagram />
                 <Trans i18nKey="SizeCard - learn more">
                   <p>
-                    {" "}
-                    This report summarizes the size and proportion of this plan
-                    within these boundaries.
+                    ℹ️ Overview: This report summarizes the size and proportion
+                    of this plan within the Belgium EEZ on the North Sea.
                   </p>
                   <p>
-                    If sketch boundaries within a plan overlap with each other,
-                    the overlap is only counted once.
+                    🎯 Planning Objective: No identified planning objectives for
+                    percentage of EEZ protected.
+                  </p>
+                  <p>
+                    🗺️ Source Data:{" "}
+                    <a href="https://marineregions.org/" target="_blank">
+                      Marine Regions - Maritime Boundaries
+                    </a>
+                  </p>
+                  <p>
+                    📈 Report: Percentage of EEZ protected is found by dividing
+                    the area of the plan by the area of the Belgium EEZ. If the
+                    plan includes multiple areas that overlap, the overlap is
+                    only counted once.
                   </p>
                 </Trans>
               </Collapse>

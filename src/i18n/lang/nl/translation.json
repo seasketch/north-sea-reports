@@ -31,5 +31,10 @@
   "Lanice conchilega": "Lanice conchilega",
   "Lanice conchilega reefs": "Lanice conchilega-riffen",
   "Reef Card": "<0>De plannen moeten rekening houden met de bescherming van het rifhabitat <i>Lanice conchilega</i>. Dit rapport geeft een samenvatting van de hoeveelheid en het aandeel <i>Lanice conchilega</i> rif dat binnen het plan is aangetroffen.</0>",
-  "Reef Card - learn more": "<p>ℹ️ Overzicht: nader vast te stellen</p><p>🎯 Planningsdoelstelling: geen geïdentificeerde planningsdoelstellingen voor het Lanice conchilega-rif.</p><p>🗺️ Brongegevens: nader vast te stellen</p><p>📈 Rapport: het Het percentage van elk kenmerktype binnen dit plan wordt berekend door de overlap van elk kenmerktype met het plan te bepalen, het gebied ervan bij elkaar op te tellen en dit vervolgens te delen door het totale gebied van elk kenmerktype dat binnen het geselecteerde plangebied nabij de kust wordt aangetroffen. Als het plan meerdere gebieden omvat die elkaar overlappen, wordt de overlap slechts één keer geteld.</p>"
+  "Reef Card - learn more": "<p>ℹ️ Overzicht: nader vast te stellen</p><p>🎯 Planningsdoelstelling: geen geïdentificeerde planningsdoelstellingen voor het Lanice conchilega-rif.</p><p>🗺️ Brongegevens: nader vast te stellen</p><p>📈 Rapport: het Het percentage van elk kenmerktype binnen dit plan wordt berekend door de overlap van elk kenmerktype met het plan te bepalen, het gebied ervan bij elkaar op te tellen en dit vervolgens te delen door het totale gebied van elk kenmerktype dat binnen het geselecteerde plangebied nabij de kust wordt aangetroffen. Als het plan meerdere gebieden omvat die elkaar overlappen, wordt de overlap slechts één keer geteld.</p>",
+  "Exclusive Economic Zone\n(0-200 nautical miles)": "Exclusieve economische zone\n(0-200 zeemijl)",
+  "Land": "Land",
+  "Nearshore\n(0-12 nautical miles)": "Dichtbij de kust\n(0-12 zeemijl)",
+  "Offshore\n(12-200 nautical miles)": "Voor de kust\n(12-200 zeemijl)",
+  "Shoreline": "Kustlijn"
 }

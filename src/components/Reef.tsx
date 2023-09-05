@@ -161,9 +161,8 @@ export const Reef: React.FunctionComponent = () => {
                     plan is calculated by finding the overlap of each feature
                     type with the plan, summing its area, then dividing it by
                     the total area of each feature type found within the
-                    selected nearshore planning area. If the plan includes
-                    multiple areas that overlap, the overlap is only counted
-                    once.
+                    planning area. If the plan includes multiple areas that
+                    overlap, the overlap is only counted once.
                   </p>
                 </Trans>
               </Collapse>
