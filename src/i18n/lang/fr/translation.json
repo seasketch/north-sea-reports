@@ -65,8 +65,8 @@
   "ResultsCard - no result message": "L'exécution du rapport est terminée, mais aucun résultat n'est renvoyé",
   "Show by MPA": "Afficher par AMP",
   "Size": "Taille",
-  "SizeCard - introduction": "les eaux nationales s'étendent du littoral jusqu'à 200 milles marins, connus sous le nom de zone économique exclusive (ZEE). Ce rapport résume le chevauchement du plan offshore avec la ZEE et d'autres limites à l'intérieur de celle-ci, mesurant les progrès vers la réalisation des objectifs en % pour chaque limite.",
-  "SizeCard - learn more": "<0> Ce rapport résume la taille et la proportion de ce plan dans ces limites.</0><p>Si les limites de l'AMP se chevauchent, le chevauchement n'est compté qu'une seule fois.</p>",
+  "SizeCard - introduction": "les eaux nationales s'étendent du littoral jusqu'à 200 milles marins, connues sous le nom de zone économique exclusive (ZEE). Ce rapport résume le chevauchement de ce plan avec la ZEE, mesurant les progrès vers la réalisation de l'objectif de protection de 5 à 10 % de la ZEE.",
+  "SizeCard - learn more": "<p>ℹ️ Aperçu : ce rapport résume la taille et la proportion de ce plan au sein de la ZEE belge sur la mer du Nord.</p><p>🎯 Objectif de planification : 5 à 10 % de la ZEE belge, de préférence dans une grande AMP .</p><2>🗺️ Données sources : <2>Régions marines - Frontières maritimes</2></2><p>📈 Rapport : Le pourcentage de ZEE protégée est obtenu en divisant la superficie du plan par la superficie de la ZEE belge. Si le plan comprend plusieurs zones qui se chevauchent, le chevauchement n'est comptabilisé qu'une seule fois. L'objectif est considéré comme atteint et est coché lorsque le % de la ZEE protégée est supérieur à 5 %.</p>",
   "SizeCard - learn more source": "Source : Wikipédia - Eaux territoriales",
   "SizeCard sketch size message": "Ce croquis fait <2>{{area}}</2> kilomètres carrés",
   "SizeCard title": "Taille des zones",
@@ -92,5 +92,6 @@
   "Land": "Atterrir",
   "Nearshore\n(0-12 nautical miles)": "Près du littoral\n(0-12 milles marins)",
   "Offshore\n(12-200 nautical miles)": "En mer\n(12-200 milles marins)",
-  "Shoreline": "Littoral"
+  "Shoreline": "Littoral",
+  "- 10% Target": "- 10% Objectif"
 }

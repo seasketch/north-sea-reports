@@ -1,6 +1,7 @@
 {
   "% Area": "% Area",
   "% Area Within Plan": "% Area Within Plan",
+  "- 10% Target": "- 10% Target",
   "Area": "Area",
   "Area Within Plan": "Area Within Plan",
   "Boundary": "Boundary",
@@ -21,8 +22,8 @@
   "Shoreline": "Shoreline",
   "Show by MPA": "Show by MPA",
   "Size": "Size",
-  "SizeCard - introduction": "national waters extend from the shoreline out to 200 nautical miles, known as the Exclusive Economic Zone (EEZ). This report summarizes offshore plan overlap with the EEZ and other boundaries within it, measuring progress towards achieving % targets for each boundary.",
-  "SizeCard - learn more": "<p>ℹ️ Overview: This report summarizes the size and proportion of this plan within the Belgium EEZ on the North Sea.</p><p>🎯 Planning Objective: No identified planning objectives for percentage of EEZ protected.</p><2>🗺️ Source Data: <2>Marine Regions - Maritime Boundaries</2></2><p>📈 Report: Percentage of EEZ protected is found by dividing the area of the plan by the area of the Belgium EEZ. If the plan includes multiple areas that overlap, the overlap is only counted once.</p>",
+  "SizeCard - introduction": "national waters extend from the shoreline out to 200 nautical miles, known as the Exclusive Economic Zone (EEZ). This report summarizes this plan's overlap with the EEZ, measuring progress towards achieving the 5%-10% EEZ protection target.",
+  "SizeCard - learn more": "<p>ℹ️ Overview: This report summarizes the size and proportion of this plan within the Belgium EEZ on the North Sea.</p><p>🎯 Planning Objective: 5-10% of the Belgian EEZ, preferably in one large MPA.</p><2>🗺️ Source Data: <2>Marine Regions - Maritime Boundaries</2></2><p>📈 Report: Percentage of EEZ protected is found by dividing the area of the plan by the area of the Belgium EEZ. If the plan includes multiple areas that overlap, the overlap is only counted once. Objective is considered achieved and given a checkmark when the % of the EEZ protected is greater than 5%.</p>",
   "Target": "Target",
   "km²": "km²"
 }

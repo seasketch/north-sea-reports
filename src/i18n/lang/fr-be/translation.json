@@ -18,8 +18,8 @@
   "Results not found": "Résultats non trouvés",
   "Show by MPA": "Afficher par MPA",
   "Size": "Taille",
-  "SizeCard - introduction": "les eaux nationales s'étendent du littoral jusqu'à 200 milles marins, connues sous le nom de zone économique exclusive (ZEE). Ce rapport résume le chevauchement des plans offshore avec la ZEE et d'autres limites à l'intérieur de celle-ci, mesurant les progrès vers la réalisation des objectifs en pourcentage pour chaque frontière.",
-  "SizeCard - learn more": "<0> Ce rapport résume la taille et la proportion de ce plan à l'intérieur de ces limites.</0><p>Si les limites d'esquisse d'un plan se chevauchent, le chevauchement n'est compté qu'une seule fois.</p>",
+  "SizeCard - introduction": "les eaux nationales s'étendent du littoral jusqu'à 200 milles marins, connues sous le nom de zone économique exclusive (ZEE). Ce rapport résume le chevauchement de ce plan avec la ZEE, mesurant les progrès vers la réalisation de l'objectif de protection de 5 à 10 % de la ZEE.",
+  "SizeCard - learn more": "<p>ℹ️ Aperçu : ce rapport résume la taille et la proportion de ce plan au sein de la ZEE belge sur la mer du Nord.</p><p>🎯 Objectif de planification : 5 à 10 % de la ZEE belge, de préférence dans une grande AMP .</p><2>🗺️ Données sources : <2>Régions marines - Frontières maritimes</2></2><p>📈 Rapport : Le pourcentage de ZEE protégée est obtenu en divisant la superficie du plan par la superficie de la ZEE belge. Si le plan comprend plusieurs zones qui se chevauchent, le chevauchement n'est comptabilisé qu'une seule fois. L'objectif est considéré comme atteint et est coché lorsque le % de la ZEE protégée est supérieur à 5 %.</p>",
   "SizeCard - learn more source": "Source : Wikipédia – Eaux territoriales",
   "Target": "Cible",
   "Viability": "Viabilité",
@@ -27,5 +27,6 @@
   "Land": "Atterrir",
   "Nearshore\n(0-12 nautical miles)": "Près du littoral\n(0-12 milles marins)",
   "Offshore\n(12-200 nautical miles)": "En mer\n(12-200 milles marins)",
-  "Shoreline": "Littoral"
+  "Shoreline": "Littoral",
+  "- 10% Target": "- 10% Objectif"
 }

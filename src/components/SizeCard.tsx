@@ -110,9 +110,8 @@ export const SizeCard = () => {
                 <Trans i18nKey="SizeCard - introduction">
                   national waters extend from the shoreline out to 200 nautical
                   miles, known as the Exclusive Economic Zone (EEZ). This report
-                  summarizes offshore plan overlap with the EEZ and other
-                  boundaries within it, measuring progress towards achieving %
-                  targets for each boundary.
+                  summarizes this plan's overlap with the EEZ, measuring
+                  progress towards achieving the 5%-10% EEZ protection target.
                 </Trans>
               </p>
               {genSingleSizeTable(data, metricGroup, t)}
@@ -129,8 +128,8 @@ export const SizeCard = () => {
                     of this plan within the Belgium EEZ on the North Sea.
                   </p>
                   <p>
-                    🎯 Planning Objective: No identified planning objectives for
-                    percentage of EEZ protected.
+                    🎯 Planning Objective: 5-10% of the Belgian EEZ, preferably
+                    in one large MPA.
                   </p>
                   <p>
                     🗺️ Source Data:{" "}
@@ -142,7 +141,9 @@ export const SizeCard = () => {
                     📈 Report: Percentage of EEZ protected is found by dividing
                     the area of the plan by the area of the Belgium EEZ. If the
                     plan includes multiple areas that overlap, the overlap is
-                    only counted once.
+                    only counted once. Objective is considered achieved and
+                    given a checkmark when the % of the EEZ protected is greater
+                    than 5%.
                   </p>
                 </Trans>
               </Collapse>
@@ -190,11 +191,12 @@ const genSingleSizeTable = (
       <ClassTable
         rows={finalMetrics}
         metricGroup={mg}
+        objective={project.getMetricGroupObjectives(mg)}
         columnConfig={[
           {
             columnLabel: boundaryLabel,
             type: "class",
-            width: 30,
+            width: 20,
           },
           {
             columnLabel: areaWithinLabel,
@@ -223,7 +225,7 @@ const genSingleSizeTable = (
               targetLabelStyle: "tight",
               barHeight: 11,
             },
-            width: 30,
+            width: 40,
             targetValueFormatter: (
               value: number,
               row: number,
@@ -232,7 +234,7 @@ const genSingleSizeTable = (
               if (row === 0) {
                 return (value: number) =>
                   `${valueFormatter(value / 100, "percent0dig")} ${t(
-                    "Target"
+                    "- 10% Target"
                   )}`;
               } else {
                 return (value: number) =>

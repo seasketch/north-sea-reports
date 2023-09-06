@@ -18,8 +18,8 @@
   "Results not found": "Resultaten niet gevonden",
   "Show by MPA": "Show door MPA",
   "Size": "Maat",
-  "SizeCard - introduction": "nationale wateren strekken zich uit van de kustlijn tot 200 zeemijl, bekend als de Exclusieve Economische Zone (EEZ). Dit rapport geeft een samenvatting van de overlap van offshore-plannen met de EEZ en andere grenzen daarbinnen, waarbij de voortgang wordt gemeten in de richting van het behalen van de %-doelstellingen voor elke grens.",
-  "SizeCard - learn more": "<0> Dit rapport vat de omvang en het aandeel van dit plan binnen deze grenzen samen.</0><p>Als schetsgrenzen binnen een plan elkaar overlappen, wordt de overlap slechts één keer geteld.</p>",
+  "SizeCard - introduction": "nationale wateren strekken zich uit van de kustlijn tot 200 zeemijl, bekend als de Exclusieve Economische Zone (EEZ). Dit rapport vat de overlap van dit plan met de EEZ samen en meet de voortgang in de richting van het bereiken van de doelstelling van 5%-10% EEZ-bescherming.",
+  "SizeCard - learn more": "<p>ℹ️ Overzicht: Dit rapport vat de omvang en het aandeel van dit plan samen binnen de Belgische EEZ op de Noordzee.</p><p>🎯 Planningsdoelstelling: 5-10% van de Belgische EEZ, bij voorkeur in één grote MPA .</p><2>🗺️ Brongegevens: <2>Mariene regio's - Maritieme grenzen</2></2><p>📈 Rapport: Het percentage beschermde EEZ wordt gevonden door het gebied van het plan te delen door het gebied van de Belgische EEZ. Als het plan meerdere gebieden omvat die elkaar overlappen, wordt de overlap slechts één keer meegeteld. De doelstelling wordt als behaald beschouwd en krijgt een vinkje als het percentage van de beschermde EEZ groter is dan 5%.</p>",
   "SizeCard - learn more source": "Bron: Wikipedia - Territoriale wateren",
   "Target": "Doel",
   "Viability": "Levensvatbaarheid",
@@ -36,5 +36,6 @@
   "Land": "Land",
   "Nearshore\n(0-12 nautical miles)": "Dichtbij de kust\n(0-12 zeemijl)",
   "Offshore\n(12-200 nautical miles)": "Voor de kust\n(12-200 zeemijl)",
-  "Shoreline": "Kustlijn"
+  "Shoreline": "Kustlijn",
+  "- 10% Target": "- 10% doel"
 }
