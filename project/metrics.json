@@ -25,12 +25,12 @@
         ]
     },
     {
-        "metricId": "reefAreaOverlap",
+        "metricId": "laniceAreaOverlap",
         "type": "areaOverlap",
         "classes": [
             {
                 "classId": "lanice_conchilega",
-                "display": "Lanice conchilega reefs",
+                "display": "Lanice conchilega",
                 "datasourceId": "lanice_conchilega",
                 "layerId": "uNdd4tTyL"
             }

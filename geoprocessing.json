@@ -22,6 +22,6 @@
   "geoprocessingFunctions": [
     "src/functions/boundaryAreaOverlap.ts",
     "src/functions/gravelBedsAreaOverlap.ts",
-    "src/functions/reefAreaOverlap.ts"
+    "src/functions/laniceAreaOverlap.ts"
   ]
 }
