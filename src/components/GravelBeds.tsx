@@ -74,7 +74,6 @@ export const GravelBeds: React.FunctionComponent = () => {
             >
               <Trans i18nKey="Gravel Beds Card">
                 <p>
-                  Plans should consider the protection of gravel bed habitats.
                   This report summarizes the amount and proportion of gravel
                   beds found in the plan.{" "}
                 </p>
