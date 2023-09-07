@@ -37,5 +37,8 @@
   "Nearshore\n(0-12 nautical miles)": "Dichtbij de kust\n(0-12 zeemijl)",
   "Offshore\n(12-200 nautical miles)": "Voor de kust\n(12-200 zeemijl)",
   "Shoreline": "Kustlijn",
-  "- 10% Target": "- 10% doel"
+  "- 10% Target": "- 10% doel",
+  "Lanice Card": "<0>De plannen moeten rekening houden met de bescherming van de aggregatiegebieden van <i>Lanice conchilega</i>. Dit rapport geeft een samenvatting van de hoeveelheid en het aandeel van <i>Lanice conchilega</i>-aggregaties die in het plan zijn aangetroffen.</0>",
+  "Lanice Card - learn more": "<p>ℹ️ Overzicht: nader vast te stellen</p><p>🎯 Planningsdoelstelling: geen geïdentificeerde planningsdoelstellingen voor de habitat van Lanice conchilega.</p><p>🗺️ Brongegevens: nader vast te stellen</p><p>📈 Rapport: het Het percentage van elk kenmerktype binnen dit plan wordt berekend door de overlap van elk kenmerktype met het plan te bepalen, de oppervlakte ervan bij elkaar op te tellen en dit vervolgens te delen door de totale oppervlakte van elk kenmerktype binnen het plangebied. Als het plan meerdere gebieden omvat die elkaar overlappen, wordt de overlap slechts één keer geteld.</p>",
+  "Species": "Soort"
 }

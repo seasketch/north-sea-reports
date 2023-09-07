@@ -93,5 +93,8 @@
   "Nearshore\n(0-12 nautical miles)": "Près du littoral\n(0-12 milles marins)",
   "Offshore\n(12-200 nautical miles)": "En mer\n(12-200 milles marins)",
   "Shoreline": "Littoral",
-  "- 10% Target": "- 10% Objectif"
+  "- 10% Target": "- 10% Objectif",
+  "Lanice Card": "<0>Les plans devraient envisager la protection des zones de concentration de <i>Lanice conchilega</i>. Ce rapport résume la quantité et la proportion des agrégations de <i>Lanice conchilega</i> trouvées dans le plan.</0>",
+  "Lanice Card - learn more": "<p>ℹ️ Aperçu : à déterminer</p><p>🎯 Objectif de planification : aucun objectif de planification identifié pour l'habitat de Lanice conchilega.</p><p>🗺️ Données sources : à déterminer</p><p>📈 Rapport : le Le pourcentage de chaque type d'entité dans ce plan est calculé en recherchant le chevauchement de chaque type d'entité avec le plan, en additionnant sa superficie, puis en le divisant par la superficie totale de chaque type d'entité trouvé dans la zone de planification. Si le plan comprend plusieurs zones qui se chevauchent, le chevauchement n'est comptabilisé qu'une seule fois.</p>",
+  "Species": "Espèces"
 }

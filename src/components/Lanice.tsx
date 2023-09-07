@@ -26,15 +26,15 @@ import { Trans, useTranslation } from "react-i18next";
 
 const Number = new Intl.NumberFormat("en", { style: "decimal" });
 
-export const Reef: React.FunctionComponent = () => {
+export const Lanice: React.FunctionComponent = () => {
   const [{ isCollection }] = useSketchProperties();
   const { t } = useTranslation();
 
-  const metricGroup = project.getMetricGroup("reefAreaOverlap", t);
+  const metricGroup = project.getMetricGroup("laniceAreaOverlap", t);
   const precalcMetrics = project.getPrecalcMetrics(metricGroup, "area");
 
   const mapLabel = t("Map");
-  const benthicLabel = t("Habitat Type");
+  const speciesLabel = t("Species");
   const areaWithin = t("Area Within Plan");
   const percAreaWithin = t("% Area Within Plan");
   const sqKmLabel = t("km²");
@@ -44,7 +44,7 @@ export const Reef: React.FunctionComponent = () => {
     <>
       <ResultsCard
         title={reportTitleLabel}
-        functionName="reefAreaOverlap"
+        functionName="laniceAreaOverlap"
         useChildCard
       >
         {(data: ReportResult) => {
@@ -72,12 +72,12 @@ export const Reef: React.FunctionComponent = () => {
                 />
               }
             >
-              <Trans i18nKey="Reef Card">
+              <Trans i18nKey="Lanice Card">
                 <p>
                   Plans should consider the protection of{" "}
-                  <i>Lanice conchilega</i> reef habitat. This report summarizes
-                  the amount and proportion of <i>Lanice conchilega</i> reef
-                  found within the plan.
+                  <i>Lanice conchilega</i> aggregation areas. This report
+                  summarizes the amount and proportion of{" "}
+                  <i>Lanice conchilega</i> aggregations found within the plan.
                 </p>
               </Trans>
               <Translator>
@@ -86,7 +86,7 @@ export const Reef: React.FunctionComponent = () => {
                   metricGroup={metricGroup}
                   columnConfig={[
                     {
-                      columnLabel: benthicLabel,
+                      columnLabel: speciesLabel,
                       type: "class",
                       width: 30,
                     },
@@ -149,11 +149,11 @@ export const Reef: React.FunctionComponent = () => {
               )}
 
               <Collapse title={t("Learn more")}>
-                <Trans i18nKey="Reef Card - learn more">
+                <Trans i18nKey="Lanice Card - learn more">
                   <p>ℹ️ Overview: TBD</p>
                   <p>
                     🎯 Planning Objective: No identified planning objectives for
-                    Lanice conchilega reef.
+                    Lanice conchilega habitat.
                   </p>
                   <p>🗺️ Source Data: TBD</p>
                   <p>

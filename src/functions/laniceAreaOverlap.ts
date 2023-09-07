@@ -16,11 +16,11 @@ import { fgbFetchAll } from "@seasketch/geoprocessing/dataproviders";
 import bbox from "@turf/bbox";
 import project from "../../project";
 
-export async function reefAreaOverlap(
+export async function laniceAreaOverlap(
   sketch: Sketch<Polygon> | SketchCollection<Polygon>
 ): Promise<ReportResult> {
   const box = sketch.bbox || bbox(sketch);
-  const metricGroup = project.getMetricGroup("reefAreaOverlap");
+  const metricGroup = project.getMetricGroup("laniceAreaOverlap");
 
   const features = (
     await Promise.all(
@@ -74,9 +74,10 @@ export async function reefAreaOverlap(
   };
 }
 
-export default new GeoprocessingHandler(reefAreaOverlap, {
-  title: "reefAreaOverlap",
-  description: "Calculate sketch overlap with Lanice conchilega reef polygons",
+export default new GeoprocessingHandler(laniceAreaOverlap, {
+  title: "laniceAreaOverlap",
+  description:
+    "Calculate sketch overlap with Lanice conchilega lanice polygons",
   executionMode: "async",
   timeout: 600,
   requiresProperties: [],
