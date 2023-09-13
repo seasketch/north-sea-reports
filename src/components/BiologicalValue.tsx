@@ -26,25 +26,25 @@ import { Trans, useTranslation } from "react-i18next";
 
 const Number = new Intl.NumberFormat("en", { style: "decimal" });
 
-export const Lanice: React.FunctionComponent = () => {
+export const BiologicalValue: React.FunctionComponent = () => {
   const [{ isCollection }] = useSketchProperties();
   const { t } = useTranslation();
 
-  const metricGroup = project.getMetricGroup("laniceAreaOverlap", t);
+  const metricGroup = project.getMetricGroup("bvAreaOverlap", t);
   const precalcMetrics = project.getPrecalcMetrics(metricGroup, "area");
 
   const mapLabel = t("Map");
-  const speciesLabel = t("Species");
+  const speciesLabel = t("Biological Value");
   const areaWithin = t("Area Within Plan");
   const percAreaWithin = t("% Area Within Plan");
   const sqKmLabel = t("km²");
-  const reportTitleLabel = t("Lanice conchilega");
+  const reportTitleLabel = t("Biological Value");
 
   return (
     <>
       <ResultsCard
         title={reportTitleLabel}
-        functionName="laniceAreaOverlap"
+        functionName="bvAreaOverlap"
         useChildCard
       >
         {(data: ReportResult) => {
@@ -72,12 +72,13 @@ export const Lanice: React.FunctionComponent = () => {
                 />
               }
             >
-              <Trans i18nKey="Lanice Card">
+              <Trans i18nKey="Biological Value Card">
                 <p>
-                  <i>Lanice cochilega</i> (sandmason bristleworm) aggregations
-                  form biogenic reefs, a valuable habitat in the Belgian part of
-                  the North Sea. Plans should consider the protection of{" "}
-                  <i>Lanice conchilega</i> biogenic aggregation areas.
+                  This report displays the biological value of benthic habitats
+                  within the Belgian part of the North Sea. Biological value
+                  ranges from 1 (very low) to 5 (very high) and can be used to
+                  inform the biological value of the area protected by your
+                  plan.
                 </p>
               </Trans>
               <Translator>
@@ -149,22 +150,18 @@ export const Lanice: React.FunctionComponent = () => {
               )}
 
               <Collapse title={t("Learn more")}>
-                <Trans i18nKey="Lanice Card - learn more">
+                <Trans i18nKey="Biological Value Card - learn more">
                   <p>
-                    ℹ️ Overview: <i>Lanice cochilega</i>, the sand mason worm,
-                    form reef habitat in the Belgian part of the North Sea.
-                    These biogenic aggregations are hotspots for biodiversity,
-                    serving as nursery and shelter locations. While{" "}
-                    <i>L. conchilega</i> itself can recover quickly from fishing
-                    gear disruption, cohabitated species are more sensitive. The
-                    species has a low habitat specialization and a wide
-                    distribution, showing a patchy distribution pattern, but
-                    aggregates optimally in shallow, fine sands.
+                    ℹ️ Overview: The intrinsic biological value of an area is
+                    based on rarity, aggregation, fitness consequences,
+                    naturalness, and proportional importance. The biological
+                    value is independent from its socio-economics, and is a
+                    relative measure against other parts of the Belgian part of
+                    the North Sea. The biological value accounts for gravel
+                    beds, reefs, and suitable habitat of macrobenthos within the
+                    area.
                   </p>
-                  <p>
-                    🎯 Planning Objective: No identified planning objectives for{" "}
-                    <i>Lanice conchilega</i> habitat.
-                  </p>
+                  <p>🎯 Planning Objective: No specific planning objective.</p>
                   <p>
                     🗺️ Source Data:{" "}
                     <a

@@ -82,5 +82,225 @@
     "lastUpdated": "2023-09-01T23:03:43.876Z",
     "src": "data/src/Data_Received/msp4bio/laniceconchilega.geojson",
     "propertiesToKeep": []
+  },
+  {
+    "datasourceId": "bv1",
+    "geo_type": "vector",
+    "keyStats": {
+      "total": {
+        "total": {
+          "count": 94,
+          "sum": null,
+          "area": 83863767.20023252
+        }
+      }
+    },
+    "formats": [
+      "fgb"
+    ],
+    "layerName": "BV1 200x200m 2",
+    "classKeys": [],
+    "created": "2023-09-13T17:16:27.125Z",
+    "lastUpdated": "2023-09-13T17:16:27.125Z",
+    "src": "data/src/Data_Received/ExtraDataBPNS/BV1 200x200m 2.0.geojson",
+    "propertiesToKeep": []
+  },
+  {
+    "datasourceId": "bv2",
+    "geo_type": "vector",
+    "keyStats": {
+      "total": {
+        "total": {
+          "count": 296,
+          "sum": null,
+          "area": 829066586.5265464
+        }
+      }
+    },
+    "formats": [
+      "fgb"
+    ],
+    "layerName": "BV2 200x200m 2",
+    "classKeys": [],
+    "created": "2023-09-13T17:17:13.756Z",
+    "lastUpdated": "2023-09-13T17:17:13.756Z",
+    "src": "data/src/Data_Received/ExtraDataBPNS/BV2 200x200m 2.0.geojson",
+    "propertiesToKeep": []
+  },
+  {
+    "datasourceId": "bv3",
+    "geo_type": "vector",
+    "keyStats": {
+      "total": {
+        "total": {
+          "count": 483,
+          "sum": null,
+          "area": 1593027826.841392
+        }
+      }
+    },
+    "formats": [
+      "fgb"
+    ],
+    "layerName": "BV3 200x200m 2",
+    "classKeys": [],
+    "created": "2023-09-13T17:17:40.361Z",
+    "lastUpdated": "2023-09-13T17:17:40.361Z",
+    "src": "data/src/Data_Received/ExtraDataBPNS/BV3 200x200m 2.0.geojson",
+    "propertiesToKeep": []
+  },
+  {
+    "datasourceId": "bv4",
+    "geo_type": "vector",
+    "keyStats": {
+      "total": {
+        "total": {
+          "count": 329,
+          "sum": null,
+          "area": 359839328.6421278
+        }
+      }
+    },
+    "formats": [
+      "fgb"
+    ],
+    "layerName": "BV4 200x200m 2",
+    "classKeys": [],
+    "created": "2023-09-13T17:18:08.927Z",
+    "lastUpdated": "2023-09-13T17:18:08.927Z",
+    "src": "data/src/Data_Received/ExtraDataBPNS/BV4 200x200m 2.0.geojson",
+    "propertiesToKeep": []
+  },
+  {
+    "datasourceId": "bv5",
+    "geo_type": "vector",
+    "keyStats": {
+      "total": {
+        "total": {
+          "count": 449,
+          "sum": null,
+          "area": 676087678.380923
+        }
+      }
+    },
+    "formats": [
+      "fgb"
+    ],
+    "layerName": "BV5 200x200m 2",
+    "classKeys": [],
+    "created": "2023-09-13T17:18:37.181Z",
+    "lastUpdated": "2023-09-13T17:18:37.181Z",
+    "src": "data/src/Data_Received/ExtraDataBPNS/BV5 200x200m 2.0.geojson",
+    "propertiesToKeep": []
+  },
+  {
+    "datasourceId": "abra_alba",
+    "geo_type": "vector",
+    "keyStats": {
+      "total": {
+        "total": {
+          "count": 278,
+          "sum": null,
+          "area": 540958763.0043592
+        }
+      }
+    },
+    "formats": [
+      "fgb"
+    ],
+    "layerName": "AA 100",
+    "classKeys": [],
+    "created": "2023-09-13T18:00:55.511Z",
+    "lastUpdated": "2023-09-13T18:00:55.511Z",
+    "src": "data/src/Data_Received/ExtraDataBPNS/AA 100.geojson",
+    "propertiesToKeep": []
+  },
+  {
+    "datasourceId": "hesionura_elongata",
+    "geo_type": "vector",
+    "keyStats": {
+      "total": {
+        "total": {
+          "count": 127,
+          "sum": null,
+          "area": 1679434358.3812876
+        }
+      }
+    },
+    "formats": [
+      "fgb"
+    ],
+    "layerName": "HE 100",
+    "classKeys": [],
+    "created": "2023-09-13T18:01:13.601Z",
+    "lastUpdated": "2023-09-13T18:01:13.601Z",
+    "src": "data/src/Data_Received/ExtraDataBPNS/HE 100.geojson",
+    "propertiesToKeep": []
+  },
+  {
+    "datasourceId": "limecola_balthica",
+    "geo_type": "vector",
+    "keyStats": {
+      "total": {
+        "total": {
+          "count": 59,
+          "sum": null,
+          "area": 204983486.518875
+        }
+      }
+    },
+    "formats": [
+      "fgb"
+    ],
+    "layerName": "LB 100",
+    "classKeys": [],
+    "created": "2023-09-13T18:01:35.273Z",
+    "lastUpdated": "2023-09-13T18:01:35.273Z",
+    "src": "data/src/Data_Received/ExtraDataBPNS/LB 100.geojson",
+    "propertiesToKeep": []
+  },
+  {
+    "datasourceId": "magelona_ensis_leei",
+    "geo_type": "vector",
+    "keyStats": {
+      "total": {
+        "total": {
+          "count": 164,
+          "sum": null,
+          "area": 95498095.21205306
+        }
+      }
+    },
+    "formats": [
+      "fgb"
+    ],
+    "layerName": "ME 100",
+    "classKeys": [],
+    "created": "2023-09-13T18:02:00.620Z",
+    "lastUpdated": "2023-09-13T18:02:00.620Z",
+    "src": "data/src/Data_Received/ExtraDataBPNS/ME 100.geojson",
+    "propertiesToKeep": []
+  },
+  {
+    "src": "data/src/Data_Received/ExtraDataBPNS/NC 100.geojson",
+    "layerName": "NC 100",
+    "geo_type": "vector",
+    "datasourceId": "nephtys_cirrosa",
+    "formats": [
+      "fgb"
+    ],
+    "classKeys": [],
+    "created": "2023-09-13T18:02:17.760Z",
+    "lastUpdated": "2023-09-13T18:02:17.760Z",
+    "keyStats": {
+      "total": {
+        "total": {
+          "count": 212,
+          "sum": null,
+          "area": 1005460534.7072432
+        }
+      }
+    },
+    "propertiesToKeep": []
   }
 ]

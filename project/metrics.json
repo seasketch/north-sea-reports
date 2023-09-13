@@ -35,5 +35,77 @@
                 "layerId": "uNdd4tTyL"
             }
         ]
+    },
+    {
+        "metricId": "bvAreaOverlap",
+        "type": "areaOverlap",
+        "classes": [
+            {
+                "classId": "bv1",
+                "display": "1 (Very Low)",
+                "datasourceId": "bv1",
+                "layerId": "3eRkaHvnL"
+            },
+            {
+                "classId": "bv2",
+                "display": "2 (Low)",
+                "datasourceId": "bv2",
+                "layerId": "jeOsWva5A"
+            },
+            {
+                "classId": "bv3",
+                "display": "3 (Medium)",
+                "datasourceId": "bv1",
+                "layerId": "fPnyndKB1"
+            },
+            {
+                "classId": "bv4",
+                "display": "4 (High)",
+                "datasourceId": "bv4",
+                "layerId": "CnbAXIEcH"
+            },
+            {
+                "classId": "bv5",
+                "display": "5 (Very High)",
+                "datasourceId": "bv5",
+                "layerId": "c9o9KQczC"
+            }
+        ]
+    },
+    {
+        "metricId": "suitabilityAreaOverlap",
+        "type": "areaOverlap",
+        "classes": [
+            {
+                "classId": "abra_alba",
+                "display": "Abra alba (white furrow shell)",
+                "datasourceId": "abra_alba",
+                "layerId": ""
+            },
+            {
+                "classId": "hesionura_elongata",
+                "display": "Hesionura elongata (small bristle worm)",
+                "datasourceId": "hesionura_elongata",
+                "layerId": ""
+            },
+            {
+                "classId": "nephtys_cirrosa",
+                "display": "Nephtys cirrosa (white catworm)",
+                "datasourceId": "nephtys_cirrosa",
+                "layerId": ""
+            },
+            {
+                "classId": "magelona_ensis_leei",
+                "display": "Magelona-ensis leei (razor clam)",
+                "datasourceId": "magelona_ensis_leei",
+                "layerId": ""
+            },
+            {
+                "classId": "limecola_balthica",
+                "display": "Limecola balthica (Baltic macoma)",
+                "datasourceId": "limecola_balthica",
+                "layerId": ""
+            }
+        ]
     }
 ]

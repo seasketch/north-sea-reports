@@ -74,8 +74,10 @@ export const GravelBeds: React.FunctionComponent = () => {
             >
               <Trans i18nKey="Gravel Beds Card">
                 <p>
-                  This report summarizes the amount and proportion of gravel
-                  beds found in the plan.{" "}
+                  Gravel beds are valuable habitats in the mainly sandy
+                  sediments of the southern North Sea. To assist in a recovery
+                  of their natural benthic communities, plans should consider
+                  the protection of gravel beds.{" "}
                 </p>
               </Trans>
               <Translator>
@@ -148,12 +150,29 @@ export const GravelBeds: React.FunctionComponent = () => {
 
               <Collapse title={t("Learn more")}>
                 <Trans i18nKey="Gravel Beds Card - learn more">
-                  <p>ℹ️ Overview: TBD</p>
+                  <p>
+                    ℹ️ Overview: Unitil the early 20th century, gravel beds
+                    supported a rich fauna including sponges, bryozoa, hydrozoa,
+                    and flat oysters. Increased human pressure from bottom
+                    trawling and fishing have impacted the once-rich habitat.
+                    Gravel beds are classified as highly sensitive to
+                    degradation from human disturbance, as overturning or
+                    removal of stones often destroys fragile hard substrate
+                    fauna.
+                  </p>
                   <p>
                     🎯 Planning Objective: No identified planning objectives for
                     gravel beds.
                   </p>
-                  <p>🗺️ Source Data: TBD</p>
+                  <p>
+                    🗺️ Source Data:{" "}
+                    <a
+                      href="https://ilvo.vlaanderen.be/uploads/documents/Mededelingen/Fishery-measures-report-ILVO-mededeling-277-final.pdf"
+                      target="_blank"
+                    >
+                      Fishery Measures Report
+                    </a>
+                  </p>
                   <p>
                     📈 Report: The percentage of each feature type within this
                     plan is calculated by finding the overlap of each feature
