@@ -80,31 +80,31 @@
                 "classId": "abra_alba",
                 "display": "Abra alba (white furrow shell)",
                 "datasourceId": "abra_alba",
-                "layerId": ""
+                "layerId": "psIz8MD3m"
             },
             {
                 "classId": "hesionura_elongata",
                 "display": "Hesionura elongata (small bristle worm)",
                 "datasourceId": "hesionura_elongata",
-                "layerId": ""
+                "layerId": "d9Ak5oqUu"
             },
             {
                 "classId": "nephtys_cirrosa",
                 "display": "Nephtys cirrosa (white catworm)",
                 "datasourceId": "nephtys_cirrosa",
-                "layerId": ""
+                "layerId": "COxaAehmn"
             },
             {
                 "classId": "magelona_ensis_leei",
                 "display": "Magelona-ensis leei (razor clam)",
                 "datasourceId": "magelona_ensis_leei",
-                "layerId": ""
+                "layerId": "X0Ii20CsV"
             },
             {
                 "classId": "limecola_balthica",
                 "display": "Limecola balthica (Baltic macoma)",
                 "datasourceId": "limecola_balthica",
-                "layerId": ""
+                "layerId": "CrIQzc83i"
             }
         ]
     }
