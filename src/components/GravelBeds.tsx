@@ -151,7 +151,7 @@ export const GravelBeds: React.FunctionComponent = () => {
               <Collapse title={t("Learn more")}>
                 <Trans i18nKey="Gravel Beds Card - learn more">
                   <p>
-                    ℹ️ Overview: Unitil the early 20th century, gravel beds
+                    ℹ️ Overview: Until the early 20th century, gravel beds
                     supported a rich fauna including sponges, bryozoa, hydrozoa,
                     and flat oysters. Increased human pressure from bottom
                     trawling and fishing have impacted the once-rich habitat.
